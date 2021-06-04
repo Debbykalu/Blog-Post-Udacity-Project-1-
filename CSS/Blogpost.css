@@ -1,0 +1,33 @@
+.blogpost-wrapper {
+    max-width: 960px;
+    margin: auto;
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+  .blogpost-header{
+      text-align: center;
+  }
+  h2 {
+    color: #000;
+  }
+  
+  .flex-grid {
+    color: #000;
+    display: flex;
+    margin: auto -1rem 1rem;
+  }
+  
+  .col {
+    background-color: #fff;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 1rem;
+  }
+  
+  .sidebar {
+    flex: 1;
+  }
+  
+  .main {
+    flex: 3;
+  }
