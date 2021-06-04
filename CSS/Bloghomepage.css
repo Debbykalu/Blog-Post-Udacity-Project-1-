@@ -30,6 +30,9 @@ body, html {
   .hero-text > h1{
     font-size:50px
   }
+  .breadcrumb{
+    margin-top: 0;
+  }
   ul.breadcrumb {
     padding: 10px 16px;
     list-style: none;
