@@ -83,7 +83,7 @@ body, html {
         color: #aeacac;
         font-size: 1em;
       }
-      a {
+      .blog-news a {
         line-height:1em;
         letter-spacing:0.06em;
         font-family: 'Lato', sans-serif;
@@ -96,7 +96,23 @@ body, html {
         padding:15px 12px 15px 15px;
         border-radius:4px;
       }
-      a:hover {
+      .blog-news a:hover {
+        background:#231f20;
+      }
+     .breadcrumb a {
+        line-height:1em;
+        letter-spacing:0.06em;
+        font-family: 'Lato', sans-serif;
+        font-weight:normal;
+        font-size:16px;
+        text-decoration:none;
+        color:#fff;
+        background:#cea052;
+        display:inline-block;
+        padding:15px 12px 15px 15px;
+        border-radius:4px;
+      }
+      .breadcrumb a:hover {
         background:#231f20;
       }
       @media screen and (min-width: 360px) and (max-width: 640px){
