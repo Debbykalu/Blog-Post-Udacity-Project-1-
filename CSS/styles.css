@@ -59,6 +59,7 @@ body, html {
       text-align: center;
       font-size: 1.8em;
   }
+  
     .blog-cards{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -238,7 +239,10 @@ body, html {
     }
   
       @media screen and (min-width: 360px) and (max-width: 680px){
-          .blog-cards{
+        .container > p {
+          font-size: 0.875em;
+      }
+        .blog-cards{
             grid-template-columns: repeat(1, 1fr);
             width:80%;
             margin: auto;
@@ -256,29 +260,31 @@ body, html {
           h1 {
             padding: 0px;
         }
-        .blogpost-wrapper{
-            padding: 25px 20px;
-        }
+        .about-sidebar > h2 {
+          font-size: 1em;
+      }
         .insideblog{
             width: 100%;
             word-break: break-all;
             text-align: justify;
         }
         section h2 {
-            font-size: 1.25em;
+            font-size: 1em;
         }
         .btn {
           margin: 10px 0;
       }
       }
 
-      @media screen and (min-width: 780px){
+      @media screen and (min-width: 760px) and (max-width: 980px){
         .blog-cards{
           grid-template-columns: repeat(2, 1fr);
           width:80%;
           margin: auto;
         }
-      
+        .hero-text{
+          top: 8%;
+        }
         .card {
           padding: 20px 10px;
       }
